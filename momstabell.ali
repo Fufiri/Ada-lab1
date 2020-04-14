@@ -1,0 +1,66 @@
+V "GNAT Lib v4.8"
+M P W=b
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV SPARK
+
+U momstabell%b		momstabell.adb		7052ff4f NE OO SU IL KM
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20070406091342 3ffc8e18
+D a-except.ads		20120716125141 10fcae55
+D a-finali.ads		20111121113555 52ecdc1b
+D a-flteio.ads		20070406091342 e18a47a0
+D a-ioexce.ads		20091130110856 8b9de6cd
+D a-stream.ads		20090409150019 2ca4ee37
+D a-tags.ads		20111212115430 6c0509d0
+D a-textio.ads		20130104124955 386df5d4
+D a-tiflio.ads		20090409150019 56fbda09
+D a-unccon.ads		20070406091342 f9eb8f06
+D interfac.ads		20110906094621 129923ea
+D i-cstrea.ads		20130102105938 3286f6aa
+D momstabell.adb	20180913132835 a9b54d3b
+D system.ads		20140416144310 90249111
+D s-crtl.ads		20130102105938 1ea48bce
+D s-exctab.ads		20090417131547 66e51330
+D s-ficobl.ads		20120709130952 55a71d43
+D s-finmas.ads		20111024091915 b95bb341
+D s-finroo.ads		20120426095924 4ff27390
+D s-parame.ads		20110830140625 b6e20cc0
+D s-pooglo.ads		20110804083314 542f33d0
+D s-soflin.ads		20120515094619 24c8153c
+D s-stache.ads		20090417130712 596fc1b4
+D s-stalib.ads		20130104124955 f78bcf95
+D s-stoele.ads		20090417130712 facd7d98
+D s-stoele.adb		20100617152355 afc5dc80
+D s-stopoo.ads		20111013103733 7b8fbeee
+D s-traent.ads		20090417130712 5221ee41
+D s-unstyp.ads		20090409150019 6ae15c76
+D s-wchcon.ads		20090417130712 bfeb2e3d
+X 1 ada.ads
+16K9*Ada 19e8 13|1r6 1r29 2r6 2r23
+X 4 a-flteio.ads
+20K13*Float_Text_IO[9|45] 13|1w10 1r33
+X 8 a-textio.ads
+49K13*Text_IO 471e16 13|2w10 2r27
+166U14*New_Line 13|41s4 44s4 46s4 53s4
+242U14*Put 13|14s4 17s7 21s4 24s7 28s4 31s7 35s4 38s7 43s4 45s4
+X 9 a-tiflio.ads
+56U14*Get 13|15s4[4|20] 18s7[4|20] 22s4[4|20] 25s7[4|20] 29s4[4|20] 32s7[4|20]
+. 36s4[4|20] 39s7[4|20]
+67U14*Put 13|50s4[4|20] 51s4[4|20] 52s4[4|20]
+X 13 momstabell.adb
+4U11*momstabell 4b11 57l5 57t15
+6f4 Minpris{float} 15m8 16r10 18m11 23r21 48r10 48r31 49r9 50r8 52r8 54m4
+. 54r16
+7f4 Maxpris{float} 22m8 23r10 25m11 48r20 48r41
+8f4 Moms{float} 36m8 37r11 37r28 39m11 49r18
+9f4 Steg{float} 29m8 30r10 32m11 54r26
+10f4 F{float} 49m4 51r8 52r16
+
